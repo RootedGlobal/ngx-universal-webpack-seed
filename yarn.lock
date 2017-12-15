@@ -97,14 +97,6 @@
     source-map "^0.5.6"
     tree-kill "^1.0.0"
 
-"@nguniversal/express-engine@^5.0.0-beta.5":
-  version "5.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@nguniversal/express-engine/-/express-engine-5.0.0-beta.5.tgz#3cbc0fb7f928012d61240681631581fb0ad327f5"
-
-"@nguniversal/module-map-ngfactory-loader@^5.0.0-beta.5":
-  version "5.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@nguniversal/module-map-ngfactory-loader/-/module-map-ngfactory-loader-5.0.0-beta.5.tgz#d86497e704f702e1a18bbcab5dd6586057941fa5"
-
 "@types/arrify@^1.0.1":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@types/arrify/-/arrify-1.0.2.tgz#4a6856b9bfd4713c781df95349c6b15db60d4de1"
@@ -1310,7 +1302,7 @@ compressible@~2.0.11:
   dependencies:
     mime-db ">= 1.30.0 < 2"
 
-compression@1.7.1, compression@^1.5.2:
+compression@^1.5.2:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/compression/-/compression-1.7.1.tgz#eff2603efc2e22cf86f35d2eb93589f9875373db"
   dependencies:
